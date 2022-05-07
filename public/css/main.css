@@ -302,6 +302,73 @@ footer{
     }
     
 
+    /* -------Pack------------ */
+
+    .pack-box{
+        margin-top: 50px;
+        padding: 50px 0;
+    }
+    
+    .pack-box div h1{
+        text-align: center;
+        font-size: 25px;
+        font-family: cursive;
+        font-weight: 900;
+        color: #333;
+    }
+    
+    .pack-box div h4{
+        margin-top: 20px;
+        font-weight: 300;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .main-pack{
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .pack{
+        text-align: center;
+        padding: 15px 0;
+    }
+    
+    .pack > div{
+        margin-top: 25px;
+        font-size: 17px;
+        border-bottom: 1px solid #ddd;
+        padding: 5px;
+    }
+    .pack-name{
+        font-size: 25px !important;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .p1{
+        background-color: #CD7F32
+        ;
+    }
+    
+    .p2{
+        background-color: #C0C0C0;
+    }
+    
+    .p3{
+        background-color: #FFD700;
+    }
+    .contact-btn{
+        margin-top: 40px !important;
+        width: 50%;
+        margin: 0 auto;
+        padding: 6px;
+        font-size: 18px;
+        font-family: monospace;
+        border-radius: 20px;
+    }
+
     
 }
 
