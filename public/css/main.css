@@ -394,6 +394,13 @@ footer{
         background-color: #fff !important;
     }
 
+    /* footer */
+
+    .copyright{
+        padding: 10px;
+        font-size: 18px;
+    }
+
 
     
 }
