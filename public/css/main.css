@@ -183,7 +183,10 @@
     font-family: monospace;
     border-radius: 20px;
 }
-
+.contact-btn a{
+    text-decoration: none;
+    color: #fff !important;
+}
 .contact-btn:hover{
     background-color: #333;
     color: #fff;
@@ -231,6 +234,21 @@ footer{
     font-size: 22px;
 }
 
+.f-link{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.f-link li{
+    display: inline-block;
+    padding: 0 10px 0 0;
+}
+
+.f-link li a{
+    text-decoration: none;
+    color: #fff;
+}
 
 .om{
     display: none !important;
@@ -242,6 +260,23 @@ footer{
 
 #mob{
     display: none;
+}
+
+
+/* ---------------content area---------- */
+
+.content-area{
+    padding: 50px 10px;
+}
+
+.content-area h1{
+    padding: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-area p{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* ----------------------- Media print max 1080px ----------------------------- */
@@ -368,6 +403,11 @@ footer{
         font-size: 18px;
         font-family: monospace;
         border-radius: 20px;
+    }
+
+    .contact-btn a{
+        text-decoration: none;
+        color: #fff !important;
     }
 
     /* ------------------------what is staking------------ */
