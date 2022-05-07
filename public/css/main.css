@@ -370,6 +370,31 @@ footer{
         border-radius: 20px;
     }
 
+    /* ------------------------what is staking------------ */
+
+    .wis{
+        margin-top: 50px;
+        color: #333;
+        background-color: #efe8e8;
+        padding: 80px 10px;
+    }
+    .wis h1{
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .wis p{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    /* -------------------how its works----------------------- */
+
+    .extra{
+        background-color: #fff !important;
+    }
+
+
     
 }
 
