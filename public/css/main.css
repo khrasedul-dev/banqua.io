@@ -19,7 +19,7 @@
     right: 20px;
     top: 45%;
     position: fixed;
-    z-index: 1000;
+    z-index: 1000 !important;
 }
 
 .s-media-list{
